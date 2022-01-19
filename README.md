@@ -1,12 +1,12 @@
 # My Studies with React Context-API
 
-In this example, I use context-api with reactjs to control the dark mode theme, just to study how context api work. For easy view I separate 2 projects ins these branches:
+In this example, I use context-api with ReactJS to control the dark mode theme, just to study how context api works. For easy view I separate 2 projects in these branches:
 
-- without-contet-api
+- without-context-api
 - with-context-api
 
-## Screen-shot 
-![Screen](https://github.com/moisesguilherme/assets/blob/main/context-api/screen.png) 
+## Screenshot 
+![web](https://github.com/moisesguilherme/assets/blob/main/context-api/screen.gif) 
 
 
 # How to run this examples
