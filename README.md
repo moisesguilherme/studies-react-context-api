@@ -13,7 +13,7 @@ In this example, I use context-api with ReactJS to control the dark mode theme, 
 You need npm or yarn
 
 ```bash
-git clone https://github.com/moisesguilherme/movieflix
+git clone https://github.com/moisesguilherme/studies-react-context-api.git
 yarn install
 yarn start
 ```
