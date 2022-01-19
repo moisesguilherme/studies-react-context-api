@@ -1,7 +1,35 @@
+html, body, #root {
+  height: 100%;
+}
+
 .App {
   text-align: center;
+  height: 100%;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .main-nav a{
-  margin-right: 100px;
+  text-decoration: none;  
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.DARK {
+  background-color: #000;
+  color: #FFF;
+}
+
+.DARK A {
+  color: #FFF;
+}
+
+.LIGHT {
+  background-color: #c8f0ea;
 }
