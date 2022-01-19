@@ -1,7 +1,25 @@
+html, body, #root {
+  height: 100%;
+}
+
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .main-nav a{
   margin-right: 100px;
+}
+
+.DARK {
+  background-color: #000;
+  color: #FFF;
+}
+
+.DARK A {
+  color: #FFF;
+}
+
+.LIGHT {
+  background-color: #c8f0ea;
 }

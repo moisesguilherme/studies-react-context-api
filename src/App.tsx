@@ -8,7 +8,7 @@ function App() {
 
   
   return (
-    <div className="App">
+    <div className={`App ${theme}`} >
       <ThemeContext.Provider value={{theme, setTheme }}>
         <Routes />  
       </ThemeContext.Provider>
