@@ -8,19 +8,16 @@ const Routes = () => {
     
     const [dataGlobal, setDataGlobal] = useState<string>('Vazio');
 
-    function change(text: string){
-        setDataGlobal(text);
-    }
     return (
 
     <BrowserRouter>
         <NavBar/>
         <Switch>
             <Route path="/users">
-                <Users name={dataGlobal} change={(text: string) => change(text)}/>
+                <Users/>
             </Route>
             <Route path="/">
-                <Home name={dataGlobal} change={(text: string) => change(text)} />
+                <Home />
             </Route>
         </Switch>
     </BrowserRouter>
