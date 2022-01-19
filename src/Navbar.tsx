@@ -10,9 +10,7 @@ const NavBar = () => {
      <nav className="main-nav">
          <Link to="/">Home</Link>
          <Link to="/users">Users</Link>
-         <h4>
-            {theme}
-         </h4>
+         <h1> | {theme}</h1>
      </nav>
     );
 } 
